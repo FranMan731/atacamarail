@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* GLOBALS */
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #EFEFEF;
+    position: relative;
+}
+
+.enfasis {
+    color: #F2D06B;
+    font-weight: 900;
+}
+
+.wow { visibility: hidden; }
+
+.escondido{ display: none; }
+/* FIN GLOBALS */
+
+/* NAV BAR */
+
+.navbar {
+    background-color: transparent !important;
+    background: transparent !important;
+    border-color: transparent !important;
+    filter: brightness(1);
+    font-size: 1.2rem;
+ }
+
+a.nav-link {
+    color: white !important;
+    text-align: center;
+}
+
+li.nav-item
+
+li.nav-item.active {
+    border-bottom: 1px solid white !important;
+}
+
+a.nav-link:hover {
+    border-bottom: 1px solid white !important;
+}
+
+#navbar-frs.scrolled {
+    background-color: rgba(23,27,39,.9)!important;
+    transition: 200ms linear;
+  }
+  
+#navbar-frs.scrolled .nav-link {
+    color: white;
+}
+
+/* FIN NAV BAR */
+
+/* INICIO */
+
+#inicio>div>svg-icon>svg {
+    width:3.2rem;
+}
+
+#inicio>div>svg-icon>svg>g>path.si-glyph-fill {
+    fill: white;
+}
+
+#inicio {
+    background-size: cover;
+    height: 100vh;
+    background: url("../images/fondo2.png") no-repeat center    top;
+    color: white;
+    background-attachment: fixed !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 15px 15px 15px;
+}
+
+.text-inicio {
+    text-align: left !important;
+}
+
+/* FIN INICIO */
+
+/* Quienes Somos */
+
+#quienes-somos {
+    padding-top: 3rem;
+    color: #3F5765;
+    text-align: center;
+}
+
+/* FIN Quienes Somos */
+
+/* Carousel */
+
+  .img-fluid {
+      max-width: 100% !important;
+      height: auto;
+  }
+
+  .carousel-seccion {
+      justify-content: center !important;
+  }
+
+  #carouselTrabajos {
+    max-width: 60% !important;
+  }
+/* FIN CAROUSEL */
+
+/* Nuestros Servicios */
+
+
+#nuestros-servicios {
+    color: #3F5765;
+}
+
+
+#nuestros-servicios>.text-grande {
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+}
+
+#nuestros-servicios>section>.col-md-5 {
+    align-self: center;
+    text-align: center;
+}
+
+#nuestros-servicios>section>div>p>svg-icon>svg {
+    width: 1.6rem;
+    margin-right: 5px !important;
+}
+
+#nuestros-servicios>section>div>p>svg-icon>svg>g>path.si-glyph-fill {
+    fill: green;
+}
+
+.btn-vermas {
+    border: 1px solid;
+}
+
+.btn-link:hover.btn-vermas {
+    text-decoration: none !important;
+}
+
+/* FIN Nuestros Servicios */
+.featurette {
+    padding-bottom: 3rem;
+}
+
+/* Empresas confiaron */
+a {
+    color: #3F5765 !important;
+}
+#empresas-confiaron {
+    color: #3F5765;
+    padding-bottom: 48px !important;
+}
+
+#empresas-confiaron>.text-grande {
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+}
+
+/* CONTACTO */
+#contacto {
+    width: 100%;
+    padding-top: 3rem;
+    background-color: #F2D06B;
+    color: #FFFFEF;
+}
+.divContacto {
+    margin-top: 3rem;
+}
+
+.formContacto {
+    margin: 0 3rem 2rem 3rem;
+}
+
+.contactoDatos {
+    margin: 0 3rem 2rem 3rem;
+}
+
+.brand-service {
+    color: #F2D06B;
+}
+
+.text-grande {
+    font-size: 1.3rem;
+}
+
+
+.img-logo {
+    align-content: center;
+}
+
+#img-logo-2 {
+    display: none;
+}
+
+/* FINAL */
+
+.final {
+    width: 100%;
+    background-color: #BF4B21;
+    color: #FFFFEF;
+
+    text-align: center;
+}
+
+@media (min-width: 500px) {
+    .text-inicio {
+        text-align: center !important;
+    }
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #img-logo-2 {
+        text-align: center;
+        display: inline-block;
+    }
+
+    #img-logo-1 {
+        display: none;
+    }
+
+    #carouselTrabajos {
+        max-width: 90% !important;
+    }
+
+    .card {
+        height: auto!important;
+    }
+}
+
+@media (max-width: 850px) {
+    .navbar {
+        margin-right: 1rem !important;
+    }
+}
