@@ -18,7 +18,7 @@
     "email-templates": "^5.0.4",
     "express": "^4.16.4",
     "jwt-simple": "^0.5.5",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "mongoose": "^5.3.12",
     "nodemailer": "^6.1.1",
     "nodemon": "^1.18.11"
